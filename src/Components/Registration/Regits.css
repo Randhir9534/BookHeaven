@@ -1,0 +1,28 @@
+.Reg-section{
+    height: 500px;
+    
+}
+video{
+    position: relative;
+    width: 100%;
+    
+}
+.Reg-form-layout{
+    display: grid;
+    place-items: center;
+}
+
+.regForm{
+    border: 2px solid brown;
+    border-radius: 20px 0px;
+    text-align: start;
+    padding: 35px;
+    font-weight: 600;
+    font-size: medium;
+    position: absolute;
+    /* z-index:10000; */
+    margin-top: -70%;
+    background-color: rgb(253, 221, 173);
+    box-shadow: 0px 0px 20px 10px brown;
+
+}

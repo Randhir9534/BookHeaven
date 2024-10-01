@@ -1,0 +1,31 @@
+.footer{
+    background-color: black;
+    color: white;
+    height: 550px;
+  }
+  .footer .box-container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer .box-container .box{
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start ;
+    font-size: 15px;
+    padding: 20px;
+    margin: 20px 20px 140px 20px;
+  }
+  .footer .box-container .box a{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer .box-container .box p{
+    padding: 10px;
+    font-size: 15px;
+  }
+  .footer h3{
+    text-align: center;
+  }

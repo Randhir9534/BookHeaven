@@ -1,0 +1,73 @@
+/* .contact-layout{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+.contact{
+    height: 700px;
+    background-image: url("../../../public/assests/contact1.avif");
+    background-size:cover;
+    background-position: center;
+    
+    
+  }
+  .contact h2{
+    text-align: center;
+    font-size: 45px;
+    color: #08e0c7;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px
+    
+  }
+  .contact .contact-layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    
+  }
+  .contact .contact-layout form{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 45px;
+    height: 480px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 0px 0px 20px 10px white;
+    transition: all 2s ease;
+  }
+  .contact .contact-layout form:hover{
+    transform: scale(1.1);
+  }
+  .contact .contact-layout .inputBox input{
+    font-size: 25px;
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 10px;
+  }
+  .contact .contact-layout textarea{
+    border-radius: 5px;
+    font-size: 22px;
+     margin-top: 15px;
+     margin-left: 25px; 
+  }
+  .contact .contact-layout h3{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 120px;
+  }
+  .contact .contact-layout .map{
+    box-shadow: 0px 0px 10px 10px white;
+    border: 2px solid rgb(167, 164, 164);
+    margin-right: 100px;
+  }
+  .button{
+    background-color:brown;
+    margin:10px 0px 10px 35%
+  }
+  .button:hover{
+    background-color:darkred;
+  }

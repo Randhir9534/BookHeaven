@@ -1,0 +1,25 @@
+.bookSection{
+    height: 700px;
+    background-image: url("../../../public/assests/banner1.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.form{
+    display: grid;
+    place-items: center;
+    
+    
+}
+.formData{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 50%;
+    text-align: start;
+    padding: 10px;
+    box-shadow: 0px 0px 20px 10px white;
+    margin-top: 5%;
+    background-color:rgb(188, 95, 28);
+    color:wheat;
+}

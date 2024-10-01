@@ -1,0 +1,13 @@
+.cat{
+    height: 700px;
+    background-color: rgb(225, 186, 133);
+    /* background-color: rgb(196, 100, 244); */
+}
+.book-section{
+    margin-top: 2%;
+    
+}
+.card-title i:hover{
+    text-decoration: underline;
+
+}
